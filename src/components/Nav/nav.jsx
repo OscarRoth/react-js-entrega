@@ -1,0 +1,17 @@
+import { Link } from "react-router-dom";
+import "./nav.css";
+
+export const Nav = () => {
+    return (
+        <nav>
+            <ul className="nav-links">
+                <li>
+                    <Link to={"/"}>Home</Link>
+                </li>
+                <li>
+                    <Link to={"/cart"}>Carrito</Link>
+                </li>            
+            </ul>
+        </nav>        
+    );
+};
